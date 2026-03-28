@@ -1,0 +1,562 @@
+/* Moxes SEO  & Digital Marketing Agency HTML-5 Template */
+
+/* RTL Style CSS Code */
+
+.rtl .row,
+.rtl .d-flex{
+	flex-direction: row-reverse;
+}
+
+.rtl .main-menu .navigation > li{
+	float:right;
+}
+
+.rtl .sticky-header .logo{
+	float:right;
+	padding-left:25px;
+}
+
+.rtl .main-menu{
+	text-align:right;
+}
+
+.rtl .main-header .main-menu .navigation > li > ul > li > ul > li,
+.rtl .main-header .main-menu .navigation > li > ul > li,
+.rtl .main-menu .navigation > li > ul > li{
+	text-align:right;
+}
+
+.rtl .main-header .main-menu .navigation > li > ul{
+	padding:20px 25px 20px 25px;
+}
+
+.rtl .main-header .main-menu .navigation > li > ul > li > a:before{
+	right:0px;
+	left:auto;
+	opacity: 0;
+}
+
+.rtl .main-menu .navigation > li > ul > li:hover > a{
+	padding-left:0px !important;
+	padding-right:30px;
+}
+
+.rtl .main-menu .navigation > li > ul > li > a:before{
+	left:auto;
+	right:8px;
+}
+
+.rtl .main-menu .navigation > li > ul > li.dropdown > a:after{
+	right:auto;
+	left:10px;
+	transform:rotate(180deg);
+}
+
+.rtl .main-menu .navigation > li > ul > li > ul{
+	left:auto;
+	right:100%;
+}
+
+.rtl .main-menu .navigation li > ul > li.dropdown:hover > ul{
+	
+}
+
+.rtl .main-header .main-menu .navigation > li > ul > li > ul{
+	right:100%;
+	left:auto;
+}
+
+.rtl .main-menu .navigation > li > ul{
+	left:auto;
+	right:0px;
+}
+
+.rtl .main-menu .navigation > li.dropdown:hover > ul{
+	left:auto;
+	right:0px;
+}
+
+.rtl .main-menu .navigation > li > ul > li > ul > li:hover > a{
+	padding-left:0px;
+	padding-right:30px;
+}
+
+.rtl .main-menu .navigation > li > ul > li > ul > li > a:before{
+	left:auto;
+	right:8px;
+	opacity: 0;
+}
+
+.rtl .main-header .main-menu .navigation > li:first-child{
+	margin-right: 0px;
+}
+
+.rtl .main-header .main-menu .navigation > li:last-child{
+	margin-right: 25px;
+}
+
+.rtl .slider-two_authors,
+.rtl .search-popup .form-group input[type="text"],
+.rtl .search-popup .form-group input[type="search"]{
+	text-align: right;
+}
+
+.rtl .about-sidebar .content-box,
+.rtl .search-popup .form-group input[type="submit"],
+.rtl .search-popup .form-group button{
+	text-align: right;
+}
+
+.rtl .search-popup .form-group input[type="submit"],
+.rtl .search-popup .form-group button{
+	right: 0px;
+	left: auto;
+}
+
+.rtl .main-header .header-lower .logo-box .logo{
+	border:none;
+	padding: 25px 0px 25px;
+}
+
+.rtl .about-sidebar_list li{
+	padding-left:0px;
+	padding-right:30px;
+}
+
+.rtl .about-sidebar_list li:before{
+	right:0px;
+	left:auto;
+}
+
+.rtl .about-sidebar .social-box{
+	text-align:right;
+	margin-right:35px;
+}
+
+
+
+.rtl .sec-title,
+.rtl .accordion-box,
+.rtl .faq-one_button,
+.rtl .counter-block_one-inner,
+.rtl .process-block_one-inner,
+.rtl .slider-one_content-inner{
+	text-align:right;
+}
+
+.rtl .slider-one_image .icon-two{
+	display: none;
+}
+
+.rtl .slider-one_image{
+	margin-left: -150px;
+}
+
+.rtl .sec-title_title{
+	padding: 0px 0px;
+	display: block;
+}
+
+.rtl .category-list_two li a:before,
+.rtl .video-one .content .graph,
+.rtl .news-block_one-button:after,
+.rtl .sec-title_title:before,
+.rtl .sec-title_title:after{
+	display: none;
+}
+
+.rtl .about-one_content-outer{
+	padding-left: 0px;
+	text-align: right;
+}
+
+.rtl .about-one_list li{
+	padding-left: 0px;
+	padding-right: 25px;
+}
+
+.rtl .about-one_list li:before{
+	right: 0px;
+	left:auto;
+}
+
+.rtl .about-phone_box{
+	text-align:right;
+	padding-left: 0px;
+	padding-right: 70px;
+}
+
+.rtl .since-phone_box .icon,
+.rtl .about-phone_box .icon{
+	right: 0px;
+	left:auto;
+}
+
+.rtl .accordion-box .block .icon-outer{
+	right:auto;
+	left: 12px;
+}
+
+.rtl .since-phone_box{
+	text-align:right;
+	padding-left: 0px;
+	padding-right: 70px;
+}
+
+.rtl .service-detail,
+.rtl .contact-two,
+.rtl .about-two,
+.rtl .slider-two,
+.rtl .main-footer,
+.rtl .contact-one,
+.rtl .counter-one,
+.rtl .video-one .content,
+.rtl .testimonial-block_three-text,
+.rtl .service-block_two-inner,
+.rtl .news-block_one-inner,
+.rtl .testimonial-block_one-inner,
+.rtl .price-block_one-inner,
+.rtl .team-block_one-content,
+.rtl .testimonial-block_two-inner,
+.rtl .news-block_two-inner,
+.rtl .news-block_three-inner,
+.rtl .slider-three_content-inner,
+.rtl .about-three_content-outer,
+.rtl .process-block_two-content,
+.rtl .gallery-block-two .content,
+.rtl .footer-style_three,
+.rtl .privacy-section,
+.rtl .project-detail,
+.rtl .shop-detail,
+.rtl .register-one,
+.rtl .category-list li a,
+.rtl .sidebar-page-container,
+.rtl .cart-shipping-box,
+.rtl .checkout-section,
+.rtl .default-form .form-group input[type="text"],
+.rtl .default-form .form-group input[type="password"],
+.rtl .default-form .form-group input[type="tel"],
+.rtl .default-form .form-group input[type="email"],
+.rtl .default-form .form-group textarea,
+.rtl .default-form .form-group select,
+.rtl .newsletter-box .form-group input[type="text"],
+.rtl .newsletter-box .form-group input[type="email"],
+.rtl .shipping-form .form-group input[type="text"],
+.rtl .shipping-form .form-group input[type="password"],
+.rtl .shipping-form .form-group input[type="tel"],
+.rtl .shipping-form .form-group input[type="email"],
+.rtl .shipping-form .form-group select,
+.rtl .shipping-form .form-group textarea,
+.rtl .shipping-form .form-group .ui-selectmenu-button.ui-button,
+.rtl .contact-form .form-group input[type="text"],
+.rtl .contact-form .form-group input[type="password"],
+.rtl .contact-form .form-group input[type="tel"],
+.rtl .contact-form .form-group input[type="email"],
+.rtl .contact-form .form-group select,
+.rtl .coming-soon .emailed-form .form-group input[type="text"],
+.rtl .coming-soon .emailed-form .form-group input[type="tel"],
+.rtl .coming-soon .emailed-form .form-group input[type="email"],
+.rtl .coming-soon .emailed-form .form-group textarea,
+.rtl .comments-form .form-group input[type="text"],
+.rtl .comments-form .form-group input[type="password"],
+.rtl .comments-form .form-group input[type="tel"],
+.rtl .comments-form .form-group input[type="email"],
+.rtl .comments-form .form-group textarea,
+.rtl .contact-form .form-group textarea{
+	text-align: right;
+}
+
+.rtl .newsletter-box .form-group button{
+	left: 8px;
+	right:auto;
+}
+
+.rtl .blog-detail_list li,
+.rtl .project-detail_list li,
+.rtl .service-detail_list li,
+.rtl .price-block_one-list li{
+	padding-left: 0px;
+	padding-right: 30px;
+}
+
+.rtl .blog-detail_list li:before,
+.rtl .project-detail_list li:before,
+.rtl .service-detail_list li:before,
+.rtl .price-block_one-list li:before{
+	right: 0px;
+	left:auto;
+}
+
+.rtl .team-one_title{
+	text-align: right;
+	padding-left: 0px;
+	padding-right: 120px;
+}
+
+.rtl .testimonial-block_one-author{
+	text-align: right;
+	padding-left:0px;
+	padding-right: 100px;
+}
+
+.rtl .testimonial-block_one-image{
+	right: 0px;
+	left:auto;
+}
+
+.rtl .testimonial-block_one-quote{
+	left:50px;
+	right:auto;
+}
+
+.rtl .footer-contact_list li{
+	padding-left:0px;
+	padding-right: 35px;
+}
+
+.rtl .main-footer_links li a:before,
+.rtl .footer-contact_list li .icon{
+	right: 0px;
+	left: auto;
+}
+
+.rtl .main-footer_links li a{
+	padding-left: 0px;
+	padding-right: 30px;
+}
+
+.rtl .service-block_one-content{
+	text-align: right;
+	margin-left: 0px;
+	margin-right: -120px;
+}
+
+.rtl .service-block_two-arrow{
+	left:15px;
+	right: auto;
+}
+
+.rtl .testimonial-block_two-author:before{
+	left:-6px;
+	right: -150px;
+	border-radius: 100px 0px 0px 100px;
+}
+
+.rtl .testimonial-block_two-icon{
+	left:0px;
+	right:auto;
+}
+
+.rtl .testimonial-block_two-rating{
+	border-radius: 50px;
+}
+
+.rtl .about-three_list li{
+	padding-left: 0px;
+	padding-right: 30px;
+}
+
+.rtl .about-three_list li:before{
+	right: 0px;
+	left:auto;
+}
+
+.rtl .counter-block_two-icon{
+	text-align: left;
+}
+
+.rtl .counter-block_two-text{
+	max-width: 100%;
+}
+
+.rtl .news-block_three-button{
+	left: 40px;
+	right: auto;
+}
+
+.rtl .footer-three_list li{
+	padding-left: 0px;
+	padding-right: 60px;
+}
+
+.rtl .footer-three_list li .icon{
+	right:0px;
+	left:auto;
+}
+
+.rtl .privacy-section .privacy-list{
+	margin-left: 0px;
+}
+
+.rtl .privacy-section .privacy-list li{
+	padding-left: 0px;
+	padding-right: 25px;
+}
+
+.rtl .privacy-section .privacy-list li:before{
+	right:0px;
+	left:auto;
+}
+
+.rtl .team-detail_content{
+	padding-left: 0px;
+	text-align:right;
+}
+
+.rtl .team-detail .info-box{
+	padding-left: 0px;
+	padding-right:75px;
+}
+
+.rtl .team-detail .info-box .icon{
+	right:0px;
+	left:auto;
+}
+
+.rtl .project-detail .sec-title{
+	max-width: 100%;
+}
+
+.rtl .shop-cat li a span{
+	right:auto;
+	left: 20px;
+}
+
+.rtl .shop-cat li a{
+	padding-right: 20px;
+}
+
+.rtl .sidebar .related-posts .post{
+	padding-left: 0px;
+	padding-right: 150px;
+}
+
+.rtl .sidebar .related-posts .post .post-thumb{
+	right:0px;
+	left:auto;
+}
+
+.rtl .shop-detail_content-column .inner-column{
+	padding-left: 0px;
+}
+
+.rtl .item-quantity{
+	margin-right: 0px;
+	margin-left: 20px;
+}
+
+.rtl .comment-box .comment{
+	padding-left: 0px;
+	padding-right: 80px;
+}
+
+.rtl .comment-box .author-thumb{
+	right: 0px;
+	left:auto;
+}
+
+.rtl .order-totals li span{
+	left: 25px;
+	right:auto;
+}
+
+.rtl .order-box .order-total span{
+	left:0px;
+	right: auto;
+}
+
+.rtl .coming-soon .emailed-form .form-group input[type="submit"],
+.rtl .coming-soon .emailed-form button{
+	right: auto;
+	left: 10px;
+}
+
+.rtl .sidebar .search-box .form-group input[type="text"],
+.rtl .sidebar .search-box .form-group input[type="search"]{
+	padding-left: 60px;
+	text-align: right;
+	padding-right: 20px;
+}
+
+.rtl .sidebar .search-box .form-group button{
+	left: 0px;
+	right:auto;
+}
+
+.rtl .category-list_two li span{
+	position:absolute;
+	left: 20px;
+	right:auto;
+}
+
+.rtl .contact-one_info-list li{
+	text-align:right;
+	padding-left: 0px;
+	padding-right: 100px;
+}
+
+.rtl .contact-one_info-list li .icon{
+	right: 0px;
+	left: auto;
+}
+
+.rtl .mobile-menu .navigation{
+	text-align: right;
+}
+
+.rtl .mobile-menu .navigation li.dropdown .dropdown-btn{
+	text-align: left;
+}
+
+.rtl .main-header .mobile-menu .navigation li.dropdown .dropdown-btn{
+	left: 0px;
+	right: auto;
+	text-align: right;
+}
+
+.rtl .main-header .mobile-menu .navigation li.dropdown .dropdown-btn::after{
+	display: none;
+}
+
+/* Media Quries */
+
+@media only screen and (max-width: 1300px){
+	
+	.contact-two_shadow{
+		display: none;
+	}
+	
+}
+
+@media only screen and (max-width: 1240px){
+	
+	.rtl .service-block_one-content{
+		margin-right: 0px;
+	}
+	
+}
+
+@media only screen and (max-width: 767px){
+	
+	.rtl .accordion-box .block .acc-btn{
+		padding-right: 30px;
+		padding-left: 60px;
+	}
+	
+	.rtl .team-one_title{
+		padding-right: 0px;
+	}
+	
+	.rtl .team-one_arrow{
+		display: none;
+	}
+	
+}
+
+@media only screen and (max-width: 479px) {
+	
+	.rtl .comment-box .comment{
+		padding-right: 0px;
+	}
+	
+}

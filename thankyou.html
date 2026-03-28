@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Thank You</title>
+    <style>
+        /* Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body,
+        html {
+            height: 100%;
+            background-color: #0c0c0c;
+            color: white;
+            font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        .small-text {
+            font-size: 22px;
+            letter-spacing: 0.03em;
+            text-align: center;
+            margin: 10px 0;
+            opacity: 0;
+            transform: translateY(-10px);
+            animation-fill-mode: forwards;
+            color: white;
+            /* small text remains white */
+        }
+
+        .top-text {
+            animation: fadeInDown 1s ease forwards;
+            animation-delay: 0.3s;
+        }
+
+        .bottom-text {
+            animation: fadeInUp 1s ease forwards;
+            animation-delay: 0.3s;
+        }
+
+        h1 {
+            font-weight: 400;
+            font-size: 9vw;
+            letter-spacing: 0.05em;
+            position: relative;
+            opacity: 0;
+            animation: fadeInScale 1.2s ease forwards;
+            animation-delay: 0.6s;
+            color: #ff9500;
+            /* orange main text */
+        }
+
+        /* Orange dots above the U */
+        h1 span.dots::before,
+        h1 span.dots::after {
+            content: '';
+            position: absolute;
+            top: -0.01em;
+            width: 0.10em;
+            height: 0.10em;
+            background: #ff9500;
+            border-radius: 50%;
+        }
+
+        h1 span.dots::before {
+            right: 0.1em;
+        }
+
+        h1 span.dots::after {
+            right: 0.6em;
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInScale {
+            0% {
+                opacity: 0;
+                transform: scale(0.8);
+            }
+
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <div class="small-text top-text">
+        ROMAN VLASOV 2021<br />
+        WEBSITE CONCEPT DESIGN<br />
+        NO-COMMERCIAL
+    </div> -->
+
+    <h1>THANK YO<span class="dots">U</span></h1>
+
+    <div class="small-text bottom-text">
+        Your submission has been received successfully.
+We appreciate your time and will get back to you shortly.
+    </div>
+</body>
+
+</html>
