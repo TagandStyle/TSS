@@ -131,7 +131,8 @@
 					<div class="nav-logo"><a href="index.html"><img src="assets/images/logo-black-orange.PNG" alt=""
 								title=""></a></div>
 					<div class="menu-outer">
-						<!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header--></div>
+						<!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
+					</div>
 				</nav>
 			</div>
 			<!-- End Mobile Menu -->
@@ -228,7 +229,7 @@
 										<div class="form-group col-lg-6 col-md-6 col-sm-12">
 											<!-- Redirect after submit -->
 											<input type="hidden" name="_redirect"
-												value="http://127.0.0.1:5500/thankyou.html">
+												value="thankyou.html">
 										</div>
 
 										<div class="form-group">
@@ -246,25 +247,25 @@
 									</div>
 								</form>
 								<script>
-  const form = document.getElementById("contact-form");
+									const form = document.getElementById("contact-form");
 
-  form.addEventListener("submit", async function(e) {
-    e.preventDefault();
+									form.addEventListener("submit", async function (e) {
+										e.preventDefault();
 
-    const data = new FormData(form);
+										const data = new FormData(form);
 
-    await fetch("https://formspree.io/f/xykbzolr", {
-      method: "POST",
-      body: data,
-      headers: {
-        'Accept': 'application/json'
-      }
-    });
+										await fetch("https://formspree.io/f/xykbzolr", {
+											method: "POST",
+											body: data,
+											headers: {
+												'Accept': 'application/json'
+											}
+										});
 
-    // Redirect after success
-    window.location.href = "thankyou.html";
-  });
-</script>
+										// Redirect after success
+										window.location.href = "thankyou.html";
+									});
+								</script>
 							</div>
 
 						</div>
