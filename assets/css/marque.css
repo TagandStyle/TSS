@@ -83,7 +83,7 @@
 	overflow:hidden;
 }
 
-.marketing-two .animation_mode h1{
+.marketing-two .animation_mode h6{
 	font-weight:800;
 	font-size: 120px;
 	line-height: 1em;
@@ -93,7 +93,7 @@
 	color: var(--main-color);
 }
 
-.marketing-two .animation_mode h1.light{
+.marketing-two .animation_mode h6.light{
 	color: transparent;
 	font-weight: 800;
 	opacity:0.70;
