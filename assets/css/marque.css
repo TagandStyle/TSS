@@ -29,7 +29,7 @@
 	background-color:var(--main-color);
 }
 
-.marketing-one .animation_mode h1{
+.marketing-one .animation_mode h5{
 	font-weight:800;
 	font-size: 40px;
 	line-height: 1em;
@@ -39,7 +39,7 @@
 	color: var(--black-color);
 }
 
-.marketing-one .animation_mode h1.light{
+.marketing-one .animation_mode h5.light{
 	color: transparent;
 	font-weight: 800;
 	opacity:0.70;
